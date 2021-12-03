@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    border: none;
+    border-bottom-left-radius: 50px;
+}
+
+.mini-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.header-itmes {
+    display: flex;
+    gap: 12px;
+}
+
+.setting-heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.762769px;
+    color: #229A87;
+}

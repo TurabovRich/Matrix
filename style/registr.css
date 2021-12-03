@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.registr-header {
+    padding: 21px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #36A593;
+    justify-content: space-between;
+}
+
+.close-btn {
+    background: #DEF9F1;
+    padding: 10px;
+    border: 1px solid #DEF9F1;
+    border-radius: 38px;
+    right: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.back {
+    background: #DEF9F1;
+    padding: 9px 13px 9px 11px;
+    border: 1px solid #DEF9F1;
+    border-radius: 38px;
+    cursor: pointer;
+}
+
+.main .progress-view p {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: -0.149625px;
+    color: #282929;
+}
+
+.progress-view {
+    height: 36px;
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.margin-bottom {
+    margin-bottom: 160px;
+}
+
+.progress-rectanle {
+    background: #FDF6CF;
+    border-radius: 100px;
+    width: 100%;
+    height: 10px;
+}
+
+.progress-line {
+    background: #F9ED35;
+    border-radius: 100px;
+    height: 10px;
+    width: 15%;
+    position: absolute;
+    margin-top: -10px;
+}
+
+.form-username {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 273px;
+}
+
+.form-username label {
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: -0.0142658px;
+    color: #282929;
+}
+
+.form-username input {
+    background: #FFFFFF;
+    border: 1px solid #CBCDCD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+
+.next-btn {
+    background: #F9ED35;
+    border: 1px solid #F9ED35;
+    border-radius: 10px;
+    height: 59px;
+    padding: 14px 83px 15px 84px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    max-width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.collage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.subtitle {
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: -0.0142658px;
+    color: #86C9BE;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.btn-register {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.radio-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.radio-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.radio-btn {
+    width: 170px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 5px 0px 18px rgba(185, 213, 208, 0.4);
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: -0.762769px;
+    color: #505857;
+    border: 1px solid #FFFFFF;
+}
+
+.radio-btn:focus {
+    background-color: #229A87;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.registr-input {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 46px;
+    padding-right: 10px;
+    width: 63%;
+    background: #FFFFFF;
+    border: 1px solid #CBCDCD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.search-registr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.vector03 {
+    position: absolute;
+    left: 405з-хpx;
+    top: 515px;
+}
+
+.invisible-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    margin-bottom: 45px;
+}
+
+.checkbox-alias {
+    height: 200px;
+    width: 264px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    transition: all 250ms ease-out;
+    cursor: pointer;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 5px 0px 30px rgba(185, 213, 208, 0.5);
+}
+
+.invisible-checkboxes input[type=checkbox] {
+    display: none;
+    margin-right: -20px;
+    position: relative;
+    z-index: 2;
+}
+
+.invisible-checkboxes input[type=checkbox]:checked+.checkbox-alias {
+    border: 3px solid green;
+}
+
+.checkbox-alias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkbox-alias p {
+    position: absolute;
+    margin-top: 163px;
+    font-family: Poppins;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.762769px;
+    color: #282929;
+
+}
+
+.chockbox-row {
+    display: flex;
+    gap: 48px;
+}
