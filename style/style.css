@@ -58,6 +58,10 @@ body {
 .content {
     background: linear-gradient(261.11deg, #77CABA 0%, #21a390 90.84%);
     border-bottom: 1px solid #60d3c2;
+    position: fixed;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    z-index: 1;
 }
 
 .btn1 {
@@ -133,7 +137,7 @@ body {
 }
 
 .screen-1 {
-    padding-top: 30px;
+    padding-top: 100px;
     display: block;
     background: linear-gradient(261.11deg, #77CABA 0%, #229A87 90.84%);
     border-bottom-left-radius: 20%;

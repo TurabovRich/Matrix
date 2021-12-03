@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./style/dashboard.css"> -->
+    <link rel="stylesheet" href="./style/dashboard.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/settings.css">
+    <link rel="stylesheet" href="./style/registr.css">
 </head>
-<div class="content">
+<div style="position: relative;" class="content">
     <div class="container">
         <header class="header">
             <a href="#"><img src="./img/logo.png" alt=""></a>
             <div class="header-itmes">
-                <svg class="icon" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="icon" width="20" height="22" viewBox="0 0 20 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M19.1418 19.7457L14.7163 15.2648C17.8172 12.0886 17.9117 6.99 14.9307 3.69697C11.9498 0.403934 6.95036 0.0841182 3.58792 2.97136C0.225486 5.8586 -0.307734 10.9292 2.37814 14.4756C5.06401 18.022 10.0166 18.7868 13.6148 16.2107L18.1264 20.8037C18.4095 21.0722 18.8506 21.0643 19.1242 20.7858C19.3978 20.5073 19.4056 20.0582 19.1418 19.7701V19.7457ZM2.00098 9.33342C2.00098 5.46743 5.13498 2.33342 9.00098 2.33342C12.867 2.33342 16.001 5.46743 16.001 9.33342C16.001 13.1994 12.867 16.3334 9.00098 16.3334C5.13498 16.3334 2.00098 13.1994 2.00098 9.33342Z"
                         fill="white" />
@@ -41,8 +43,82 @@
         </header>
     </div>
 </div>
-<div class="setting">
-    <h1 class="setting-heading">Account settings</h1>
+<div class="welcome_section">
+    <div class="container">
+        <div class="welcome-info">
+            <div class="welcome-user">
+                <p id="welcome-user">Account settings</p>
+                <img src="./svg/vector04.svg" alt="">
+            </div>
+        </div>
+        <div class="subject">
+            <div class="settings-card">
+                <div class="user-info">
+                    <p class="subtitle">Basics info</p>
+                    <div class="input-section">
+                        <div class="row">
+                            <div class="form-input">
+                                <label class="User-name" for="User-name">Username</label>
+                                <input class="input" type="text" name="Username">
+                            </div>
+                            <div class="form-input">
+                                <label class="User-name" for="User-name">Username</label>
+                                <input class="input" type="email" name="Username">
+                            </div>
+                        </div>
+                        <div class="form-input">
+                            <label class="User-name" for="User-name">Username</label>
+                            <input class="input" type="text" name="Username">
+                        </div>
+                    </div>
+                </div>
+                <div class="user-changes">
+                    <p class="subtitle">Change password</p>
+                    <div class="input-section">
+                        <div class="row">
+                            <div class="form-input">
+                                <label class="User-name" for="User-name">Username</label>
+                                <input class="input" type="password" name="Username">
+                            </div>
+                            <div class="form-input">
+                                <label class="User-name" for="User-name">Username</label>
+                                <input class="input" type="password" name="Username">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Subscription">
+                    <p class="subtitle">Basics info</p>
+                    <div class="subscription-card">
+                        <img src="./img/ic.png" alt="">
+                        <h1>You do not have a premium subscription </h1>
+                        <p>Premium subscription include: access to all video materials, <br>
+                            all exercises, access to paid material.
+                        </p>
+                        <button class="registr-btn">
+                            Get Premium
+                        </button>
+                    </div>
+                </div>
+                <div class="bonus">
+                    <p class="subtitle">Bonus program</p>
+                    <div class="bonus-card">
+                        <h1>You do not have a premium subscription </h1>
+                        <img src="./img/45.png" alt="">
+                        <p>
+                            This is your individual link. Share it with your friends and get a 5% bonus
+                        </p>
+                        <button class="btn-1 send">
+                            Send my email
+                        </button>
+                        <button class="btn-1 facebook">
+                            Share on Facebook
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <body>

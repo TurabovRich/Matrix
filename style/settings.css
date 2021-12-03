@@ -30,3 +30,31 @@
     letter-spacing: -0.762769px;
     color: #229A87;
 }
+
+.settings-card {
+    background: #FFFFFF;
+    box-shadow: 5px 0px 20px rgba(185, 213, 208, 0.4);
+    border-radius: 10px;
+    padding: 37px 58px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section input {
+    height: 56px;
+    width: 510px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.user-info {
+    margin-bottom: 30px;
+}
