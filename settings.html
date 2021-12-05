@@ -108,6 +108,17 @@
                         <p>
                             This is your individual link. Share it with your friends and get a 5% bonus
                         </p>
+                        <div class="copy">
+                            <input type="copy" value="Yomon desez k#t siz" id="myInput">
+                            <button class="copy_btn" onclick="myFunction()">Copy text</button>
+                        </div>
+                        <div class="or-block">
+                            <div class="line"></div>
+                            <p>
+                                or
+                            </p>
+                            <div class="line"></div>
+                        </div>
                         <button class="btn-1 send">
                             Send my email
                         </button>
@@ -117,9 +128,79 @@
                     </div>
                 </div>
             </div>
+            <button class="registr-btn">
+                Save changes
+            </button>
         </div>
     </div>
 </div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-info">
+            <a href="#"><img src="./svg/logo.svg" alt="" class="logo"></a>
+            <span class="footer-links">
+                <p class="footer-title">
+                    Classes
+                </p>
+                <a href="#">5th</a>
+                <a href="#">4th</a>
+                <a href="#">3rd</a>
+                <a href="#">second</a>
+                <a href="#">first</a>
+                <a href="#">Terminal L</a>
+                <a href="#">Terminal ES</a>
+                <a href="#">Terminal S</a>
+            </span>
+            <span class="footer-links">
+                <p class="footer-title">
+                    Subjects
+                </p>
+                <a href="#">Mathematics</a>
+                <a href="#">Physical</a>
+                <a href="#">SVT</a>
+                <a href="#">French</a>
+                <a href="#">Chemistry</a>
+                <a href="#">Technology</a>
+            </span>
+            <span class="footer-links">
+                <p class="footer-title">
+                    Company
+                </p>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Help</a>
+                <a href="#">Support community</a>
+                <a href="#">Share your story</a>
+            </span>
+            <span class="footer-links">
+                <p class="footer-title">
+                    Follow Us
+                </p>
+                <span class="footer-btns">
+                    <button class="footer-btn">
+                        <img src="./svg/facebook-icon.svg" alt="">
+                    </button>
+                    <button class="footer-btn">
+                        <img src="./svg/youtube-icon.svg" alt="">
+                    </button>
+                </span>
+
+            </span>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    function myFunction() {
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        alert("Copied the text: " + copyText.value);
+    }
+</script>
 
 <body>
 </body>

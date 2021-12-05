@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.register-content {
+    padding: ;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -191,7 +195,7 @@
 
 .vector03 {
     position: absolute;
-    left: 405з-хpx;
+    left: 328px;
     top: 515px;
 }
 
@@ -316,6 +320,12 @@
     text-align: center;
     letter-spacing: -0.0142658px;
     color: #229A87;
+    margin-bottom: 28px;
+}
+
+.bonus-card img {
+    position: absolute;
+    margin-top: -165px;
 }
 
 .bonus-card p {
@@ -330,6 +340,38 @@
     margin-bottom: 24px;
 }
 
+.bonus-card input {
+    background: #FFFFFF;
+    border: 1px solid #CBCDCD;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+    height: 46px;
+    width: 230px;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.copy_btn {
+    width: 125px;
+    height: 50px;
+    background: #229A87;
+    border: 1px solid #229A87;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.0142658px;
+    color: #FFFFFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 .send {
     border: 1px solid #229A87;
     background-color: #fff;
@@ -339,9 +381,30 @@
 .btn-1 {
     width: 370px;
     height: 50px;
-    border-radius: 10px
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .facebook {
-    background: #476CCC;
+    background-color: #476CCC;
+    border: 1px solid #476CCC;
+}
+
+.or-block {
+    width: 32%;
+}
+
+.settings-card {
+    padding-bottom: 62px;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 37px;
+    margin-bottom: 50px;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

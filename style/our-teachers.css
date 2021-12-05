@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: inherit;
+}
+
+.welcome-user {
+    display: flex;
+    flex-direction: column;
+    height: 152px;
+    width: 563px;
+}
+
+.welcome-user img {
+    position: absolute;
+    left: 433px;
+    margin-top: -5px;
+    height: 100px;
+    width: 148px;
+}
+
+.pages {
+    display: flex;
+    height: 20px;
+    width: 194px;
+    margin-bottom: 21px;
+    justify-content: space-between;
+}
+
+.page {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.149625px;
+    color: #505857;
+}
+
+.active {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.149625px;
+    color: #229A87;
+}
+
+
+.welcome-user p {
+    margin-bottom: 21px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.149625px;
+    color: #282929;
+}
+
+.teachers-info {
+    background-image: url(../img/bg.png);
+    height: 100%;
+}
