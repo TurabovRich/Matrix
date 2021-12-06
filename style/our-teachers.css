@@ -65,7 +65,69 @@
     color: #282929;
 }
 
-.teachers-info {
+.main {
     background-image: url(../img/bg.png);
-    height: 100%;
+    background-repeat: round;
+}
+
+.teacher-card {
+    background: #FFFFFF;
+    box-shadow: 5px 0px 30px rgba(185, 213, 208, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+}
+
+.teacher-subject {
+    position: absolute;
+    margin-top: 20px;
+}
+
+.main_text-section {
+    padding-right: 15px;
+    padding-left: 16px;
+    padding-top: 38px;
+    padding-bottom: 19px;
+}
+
+.title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.762769px;
+    color: #282929;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.0142658px;
+    text-align: center;
+    color: #B7C2BF;
+}
+
+.subtitle2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1575px;
+    color: #414947;
+}
+
+.row {
+    margin-bottom: 48px;
+    gap: 48px;
+    justify-content: inherit;
 }
