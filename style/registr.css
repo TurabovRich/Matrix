@@ -3,8 +3,8 @@
     margin: 0;
 }
 
-.register-content {
-    padding: ;
+.registr-content {
+    padding: 15px 0;
 }
 
 .container {
@@ -195,8 +195,8 @@
 
 .vector03 {
     position: absolute;
-    left: 328px;
-    top: 515px;
+    left: 485px;
+    top: 529px;
 }
 
 .invisible-checkboxes {

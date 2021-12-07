@@ -1,0 +1,248 @@
+.decoration-p {
+    position: absolute;
+    margin: -90px 0 0 90px;
+}
+
+.premium-btn {
+    width: 266px;
+    height: 40px;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.0142658px;
+    color: #282929;
+}
+
+.move-bg {
+    background: #EDFAF6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 56px 40px 0 58px;
+    gap: 152px;
+    margin: 50px 0 40px 0;
+}
+
+.move-bg .left__conent {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.move-bg .left__conent h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.762769px;
+    color: #229A87;
+}
+
+.move-bg .move__right {
+    text-align: center;
+}
+
+.move-bg .move__right img {
+    margin-bottom: 16px;
+}
+
+.move-bg .move__right h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.149625px;
+    color: #282929;
+    margin-bottom: 36px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.price-bg {
+    display: flex;
+    gap: 49px;
+    width: 730px;
+    height: 600px;
+    margin-top: 103px;
+    justify-content: center;
+}
+
+.price-bg .bacground-img {
+    position: absolute;
+    width: 730px;
+    height: 600px;
+    z-index: -1;
+    margin-top: -60px;
+}
+
+.price .box-main h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.0142658px;
+    color: #FF3D00;
+    background: #FFEBE4;
+    border-radius: 100px;
+    width: 200px;
+    margin-left: 90px;
+}
+
+.price .box-header {
+    background: linear-gradient(261.11deg, #77CABA 0%, #229A87 90.84%);
+    width: 368px;
+    height: 100px;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    padding-top: 18px;
+    color: #fff;
+}
+
+.price .box-header img {
+    margin-bottom: 3px;
+}
+
+.price .box-header .sale {
+    position: absolute;
+}
+
+.price .box-main {
+    background: #FFFFFF;
+    box-shadow: 5px 0px 30px rgba(185, 213, 208, 0.5);
+    width: 368px;
+    height: 292px;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 0 0 20px 20px
+}
+
+.price .box-main span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.762769px;
+    color: #229A87;
+    margin-top: 11px;
+}
+
+.price .box-main h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: -0.0142658px;
+    color: #B7C2BF;
+    align-items: baseline;
+    margin-top: 11px;
+}
+
+.price .box-main p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.1575px;
+    color: #505857;
+    margin: 16px 0 20px;
+}
+
+.price .box-main button {
+    background: #F9ED35;
+    border-radius: 6px;
+    width: 220px;
+    height: 44px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.0142658px;
+    color: #282929;
+    border-radius: 5px
+}
+
+.price .month__box h4 {
+    margin-top: 33px;
+}
+
+.price .month__box p {
+    margin-bottom: 40px;
+}
+
+.price .sale {
+    margin-left: -210px;
+    margin-top: -60px;
+}
+
+.premium-footer {
+    background-image: url(../img/Group2372.png);
+    text-align: center;
+    padding: 80px 0;
+}
+
+.premium-footer img {
+    margin-bottom: 6px;
+}
+
+.premium-footer h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.762769px;
+    color: #0F947F;
+}
+
+.premium-footer h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.149625px;
+    color: #282929;
+    margin-bottom: 30px;
+}
+
+.premium-footer .phone {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 26px;
+    gap: 10px;
+}
+
+.premium-footer p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    letter-spacing: -0.0142658px;
+    color: #B7C2BF;
+}

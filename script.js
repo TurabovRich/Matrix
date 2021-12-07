@@ -4,14 +4,10 @@ let logInBtn = document.getElementById('login-btn'),
     userName = document.getElementById('welcome-user')
 
 
-    logInBtn.addEventListener('click', () => {
-        modal.style.display = 'block'
-    });
+logInBtn.addEventListener('click', () => {
+    modal.style.display = 'block'
+});
 
-    closeBtn.addEventListener('click', () => {
-        modal.style.display = 'none'
-    });
-
-    // userName.addEventListener(alert('What is your Name?'), () => {
-    //     modal
-    // })
+closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none'
+});
